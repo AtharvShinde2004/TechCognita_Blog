@@ -22,7 +22,7 @@ title: TechCognita | Blogs
 email: shindeatharv576@gmail.com # Update with your email
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the TechCognita blog! Stay updated with the latest tech tutorials, tips, and innovations.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/TechCognita_Blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://techcognita.com
 twitter_username: techcognita
 github_username: techcognita  # Your GitHub username
