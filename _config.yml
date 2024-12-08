@@ -1,55 +1,53 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# These are used to personalize your new site. You can access them via {{ site.title }}, {{ site.email }}, etc.
 
-title: TechCognita | Blogs
-email: shindeatharv576@gmail.com
+title: "TechCognita | Blogs"
+email: "shindeatharv576@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Welcome to the TechCognita Blog! Explore the latest technology insights, tutorials, and updates.
+baseurl: "/TechCognita_Blog" # If you're hosting on a subpath, like 'username.github.io/repo_name'
+url: "https://atharvshinde2004.github.io" # Replace with your GitHub username and repository name
+twitter_username: "yourtwitterusername"  # Replace with your Twitter handle
+github_username: "yourgithubusername"  # Replace with your GitHub username
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude files that you don't want to be processed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Author and other meta information
+author: "Atharv Shinde"  # Your name
+
+# Optional: Pagination settings
+paginate: 5  # Number of posts to show per page
+paginate_path: "/page:num"  # Pagination path format
+
+# Markdown settings (optional, depends on your preferred markdown processor)
+markdown: kramdown
+
+# Social Media and Analytics (Optional)
+# Add your social media links and analytics tracking (like Google Analytics) below:
+
+social:
+  - name: "twitter"
+    url: "https://twitter.com/yourtwitterhandle"  # Replace with your Twitter handle
+  - name: "github"
+    url: "https://github.com/yourgithubusername"  # Replace with your GitHub profile URL
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/yourlinkedinprofile"  # Replace with your LinkedIn profile URL
+
+# Google Analytics or other tracking code (optional)
+google_analytics: "UA-XXXXX-Y"  # Replace with your Google Analytics tracking ID
