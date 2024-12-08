@@ -10,12 +10,6 @@ Welcome to the official TechCognita blog! Here, we share cutting-edge insights, 
 
 Stay updated with the latest trends and get hands-on tips and guides to enhance your technical skills. Whether you're a beginner or an experienced developer, there's something here for everyone.
 
-## Featured Articles
-
-- [Tech News](#): Stay updated on the latest in technology.
-- [Tutorials](#): Learn coding from scratch with detailed tutorials.
-- [AI Insights](#): Explore the world of Artificial Intelligence and its applications.
-
 ### Why Follow Us?
 
 - Stay up-to-date with industry trends.
