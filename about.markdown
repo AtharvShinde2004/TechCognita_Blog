@@ -21,17 +21,3 @@ To create an ecosystem where education meets innovation, making learning accessi
 At **TechCognita**, we believe in the power of technology to shape the future. Join us on this journey to unlock your potential and make a lasting impact.
 
 For more information, visit our [official website](#) or follow us on our social media channels.
-
----
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/).
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
